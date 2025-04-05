@@ -5,7 +5,7 @@ from django.contrib.auth.models import User
 class Post(models.Model):
     """
     Post model, related to 'owner', i.e. a User instance.
-    Default image set to so that we can always reference image.url.
+    Default image set so that we can always reference image.url.
     """
     image_filter_choices = [
         ('_1977', '1977'),
